@@ -64,7 +64,7 @@
                                     ak47.Fire();
                                     break;
                                 case "3":
-                                    Console.WriteLine(ak47.GetRemainBulletCount());
+                                    Console.WriteLine("Bullet count : " + ak47.GetRemainBulletCount());
                                     break;
                                 case "4":
                                     ak47.Reload();
@@ -129,7 +129,7 @@
                                     awp.Shoot();
                                     break;
                                 case "2":
-                                    Console.WriteLine(awp.GetRemainBulletCount());
+                                    Console.WriteLine("Bullet count : " + awp.GetRemainBulletCount());
                                     break;
                                 case "3":
                                     awp.Reload();
@@ -192,7 +192,7 @@
                                     uzi.Fire();
                                     break;
                                 case "2":
-                                    Console.WriteLine(uzi.GetRemainBulletCount());
+                                    Console.WriteLine("Bullet count : " + uzi.GetRemainBulletCount());
                                     break;
                                 case "3":
                                     uzi.Reload();
@@ -254,7 +254,7 @@
                                     deagle.Shoot();
                                     break;
                                 case "2":
-                                    Console.WriteLine(deagle.GetRemainBulletCount());
+                                    Console.WriteLine("Bullet count : " +deagle.GetRemainBulletCount());
                                     break;
                                 case "3":
                                     deagle.Reload();
